@@ -26,7 +26,6 @@ fn test_hundredth_prime() {
 }
 
 #[test]
-#[ignore]
 fn test_big_prime() {
     assert_eq!(np::nth(10_000), 104_743);
 }
