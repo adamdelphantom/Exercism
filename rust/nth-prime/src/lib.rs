@@ -8,6 +8,7 @@ pub fn nth(n: u32) -> u32 {
         for prime in &primes {
             if prime_candidate % prime == 0 {
                 is_prime = false;
+                break
             }
         }
         if !is_prime {
