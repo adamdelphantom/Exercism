@@ -21,7 +21,6 @@ fn test_cube_of_a_prime() {
 }
 
 #[test]
-#[ignore]
 fn test_product_of_primes_and_non_primes() {
     assert_eq!(factors(12), vec![2, 2, 3]);
 }
