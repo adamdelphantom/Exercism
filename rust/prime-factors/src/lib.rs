@@ -16,7 +16,7 @@ fn is_factor(n: u64, factor: u64) -> bool {
 
 pub fn factors(n: u64) -> Vec<u64> {
     let mut prime_factors = vec![];
-    if n == 1 {
+    if n <= 1 {
         return prime_factors;
     } else if is_prime(n) {
         prime_factors.push(n);
