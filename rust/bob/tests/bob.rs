@@ -83,7 +83,6 @@ fn test_statement_containing_question_mark() {
     process_response_case("Ending with ? means a question.", "Whatever.");
 }
 
-
 #[test]
 /// multiple line question
 fn test_multiple_line_question() {
